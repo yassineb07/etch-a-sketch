@@ -1,0 +1,28 @@
+body {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.header {
+  text-align: center;
+  background-color: bisque;
+}
+
+.grid-size {
+  align-self: center;
+  padding: 16px 32px;
+}
+.content {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  width: 500px;
+  height: 500px;
+  border: 2px black solid;
+}
+
